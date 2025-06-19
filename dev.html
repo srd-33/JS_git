@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile</title>
+    <link rel="stylesheet" href="dev.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <div class="heading">
+            <h2>Dev Detective</h2>
+
+            <div class="headri8" id="btn-mode">
+               <span class="lightmode" id="modetext">DARK</span>
+               <img class="light-icon" src="./assets/images/moon-icon.svg" alt="" id="modeicon">
+            </div>
+
+        </div>
+
+        <div class="inputcontainer">
+            <input type="text" placeholder="Enter a Github Username" id="input">
+
+            <div class="error">
+                <p id="no-results">no search results</p>
+            </div>
+
+            <button class="btn" id="submit">Search</button>
+        </div>
+
+        <div class="profile">
+
+            <div class="first">
+
+                <div class="left">
+                    <img src="#" alt="" id="avatar">
+                </div>
+
+                <div class="ri8">
+                    <h2 id="name"></h2>
+                    <a href="#" id="user"></a>
+                    <p id="date"></p>
+                </div>
+
+
+            </div>
+
+            <p id="desc2"></p>
+
+            <div class="container">
+
+                <div class="repo">
+                    <p>Repos</p>
+                    <p id="repo_no" class="stat-value"></p>
+                </div>
+
+                <div class="repo">
+                    <p>Followers</p>
+                    <p id="followers" class="stat-value"></p>
+                </div>
+
+                <div class="repo">
+                    <p>Following</p>
+                    <p id="following" class="stat-value"></p>
+                </div>
+
+            </div>
+
+            <div class="footer">
+
+                <div class="f1">
+                    <img src="./assets/images/location-icon.svg" alt="">
+                    <p id="place"></p>
+                </div>
+
+                <div class="f1">
+                    <img src="./assets/images/website-icon.svg" alt="">
+                    <a href="#" id="resume"></a>
+                </div>
+
+                <div class="f1">
+                    <img src="./assets/images/twitter-icon.svg" alt="">
+                    <a href="#" id="twitter"></a>
+                </div>
+
+                <div class="f1">
+                    <img src="./assets/images/company-icon.svg" alt="">
+                    <p id="keyinsight"></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./dev.js"> </script>
+</body>
+</html>
